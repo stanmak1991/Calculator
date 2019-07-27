@@ -66,7 +66,7 @@ class Calculator {
             int temp0;
             int temp1;
 
-            if (TryParse(FirstNumber)) {
+            if (TryParse(FirstNumber) == true) {
                 temp0 = Integer.parseInt(FirstNumber);
                 temp1 = Integer.parseInt(SecondNumber);
             } else {
